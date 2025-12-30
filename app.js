@@ -2,6 +2,7 @@ require("dotenv").config();
 require("express-async-errors");
 
 const express = require("express");
+const path = require("path");
 const http = require("http");
 const socketIo = require("socket.io");
 const connectDB = require("./config/connect");
@@ -35,6 +36,7 @@ handleSocketConnection(io);
 // Routes
 app.use("/auth", authRouter);
 app.use("/anime", animeRouter);
+app.use("/hls", express.static(path.join(__dirname, "hls")));
 
 // Middleware
 app.use(notFoundMiddleware);
@@ -56,3 +58,4 @@ const start = async () => {
 };
 
 start();
+

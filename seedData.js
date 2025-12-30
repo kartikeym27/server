@@ -12,7 +12,7 @@ export const animeData = [
     comments: [],
     thumbnail_url:
       "https://res.cloudinary.com/dponzgerb/image/upload/v1728726323/bdnvc1ewa7e7o0ueqgdt.jpg",
-    stream_url: "http://192.168.0.102:8080/output.m3u8",
+    stream_url: "https://server-nksw.onrender.com/hls/output.m3u8",
     is_live: true,
   },
   {
@@ -28,7 +28,7 @@ export const animeData = [
     comments: [],
     thumbnail_url:
       "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/a249096c7812deb8c3c2c907173f3774.jpg",
-    stream_url: "http://192.168.0.102:8080/output.m3u8",
+    stream_url: "https://server-nksw.onrender.com/hls/output.m3u8",
     is_live: false,
   },
   {
@@ -43,7 +43,7 @@ export const animeData = [
     comments: [],
     thumbnail_url:
       "https://a.storyblok.com/f/178900/1920x1080/efdffb9f1d/attack-on-titan-final-season-levi.png",
-    stream_url: "http://192.168.0.102:8080/output.m3u8",
+    stream_url: "https://server-nksw.onrender.com/hls/output.m3u8",
     is_live: false,
   },
   {
@@ -58,7 +58,7 @@ export const animeData = [
     comments: [],
     thumbnail_url:
       "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/36bdc5ea4443cd8e42f22ec7d3884cbb.jpg",
-    stream_url: "http://192.168.0.102:8080/output.m3u8",
+    stream_url: "https://server-nksw.onrender.com/hls/output.m3u8",
     is_live: false,
   },
 
@@ -75,7 +75,7 @@ export const animeData = [
     comments: [],
     thumbnail_url:
       "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/2e54344c7cc1675af721b4021222230f.jpg",
-    stream_url: "http://192.168.0.102:8080/output.m3u8",
+    stream_url: "https://server-nksw.onrender.com/hls/output.m3u8",
     is_live: false,
   },
   {
@@ -91,7 +91,7 @@ export const animeData = [
     comments: [],
     thumbnail_url:
       "https://cdn.animenewsnetwork.com/thumbnails/crop900x350/video/category/15/key_art_bleach.jpg",
-    stream_url: "http://192.168.0.102:8080/output.m3u8",
+    stream_url: "https://server-nksw.onrender.com/hls/output.m3u8",
     is_live: false,
   },
   {
@@ -106,7 +106,7 @@ export const animeData = [
     comments: [],
     thumbnail_url:
       "https://m.media-amazon.com/images/S/pv-target-images/d5d5c77008ec00c46c7ad195c377f76a06abe0822a987d0c890a0ccf1c143f73.jpg",
-    stream_url: "http://192.168.0.102:8080/output.m3u8",
+    stream_url: "https://server-nksw.onrender.com/hls/output.m3u8",
     is_live: false,
   },
   {
@@ -122,7 +122,7 @@ export const animeData = [
     comments: [],
     thumbnail_url:
       "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/0273e80242d80b0218f640e038269c18.jpg",
-    stream_url: "http://192.168.0.102:8080/output.m3u8",
+    stream_url: "https://server-nksw.onrender.com/hls/output.m3u8",
     is_live: false,
   },
   {
@@ -138,7 +138,7 @@ export const animeData = [
     comments: [],
     thumbnail_url:
       "https://m.media-amazon.com/images/S/pv-target-images/0559334408c12ef5e0a6a3d5d2df2e22e707c4c5fa8918889c898cf2c2573c11.jpg",
-    stream_url: "http://192.168.0.102:8080/output.m3u8",
+    stream_url: "https://server-nksw.onrender.com/hls/output.m3u8",
     is_live: false,
   },
   {
@@ -154,7 +154,7 @@ export const animeData = [
     comments: [],
     thumbnail_url:
       "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/ac6e22b27d285ed90e72744584d23434.jpe",
-    stream_url: "http://192.168.0.102:8080/output.m3u8",
+    stream_url: "https://server-nksw.onrender.com/hls/output.m3u8",
     is_live: false,
   },
   {
@@ -169,7 +169,7 @@ export const animeData = [
     comments: [],
     thumbnail_url:
       "https://m.media-amazon.com/images/S/pv-target-images/aaa253b7a9f9fb95264c68c31cd04b9030a5d7b0212e1b01d437dc5631c62799._SX1080_FMjpg_.jpg",
-    stream_url: "http://192.168.0.102:8080/output.m3u8",
+    stream_url: "https://server-nksw.onrender.com/hls/output.m3u8",
     is_live: false,
   },
   {
@@ -185,7 +185,7 @@ export const animeData = [
     comments: [],
     thumbnail_url:
       "https://m.media-amazon.com/images/S/pv-target-images/f6229414d529451c2677a18db912a09fc8ee78a78669cf7043acbc8d952a6f8c.jpg",
-    stream_url: "http://192.168.0.102:8080/output.m3u8",
+    stream_url: "https://server-nksw.onrender.com/hls/output.m3u8",
     is_live: false,
   },
   {
@@ -201,7 +201,7 @@ export const animeData = [
     comments: [],
     thumbnail_url:
       "https://m.media-amazon.com/images/S/pv-target-images/526c5dcf1dab6d883aacafb6b283acdf9192223b594b836c2abfbe68cd62eda5._UR1920,1080_.jpg",
-    stream_url: "http://192.168.0.102:8080/output.m3u8",
+    stream_url: "https://server-nksw.onrender.com/hls/output.m3u8",
     is_live: false,
   },
   {
@@ -217,7 +217,7 @@ export const animeData = [
     comments: [],
     thumbnail_url:
       "https://m.media-amazon.com/images/M/MV5BMGQ4ZGJhZTUtZDQ5Mi00NTI1LWEyYjItMzIxM2VlNmY4MDEyXkEyXkFqcGc@._V1_.jpg",
-    stream_url: "http://192.168.0.102:8080/output.m3u8",
+    stream_url: "https://server-nksw.onrender.com/hls/output.m3u8",
     is_live: false,
   },
 ];
