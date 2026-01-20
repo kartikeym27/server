@@ -193,6 +193,7 @@ const listLikes = async (req, res) => {
     const endIndex = page * limit;
     const paginatedLikes = likes.slice(startIndex, endIndex);
 
+    // res.header("Cache-Control", "no-store");
     res.status(StatusCodes.OK).json(paginatedLikes);
   } catch (error) {
     console.error(error);

@@ -1,4 +1,4 @@
-const User = require("../../models/User");
+﻿const User = require("../../models/User");
 const { StatusCodes } = require("http-status-codes");
 const {
   BadRequestError,
@@ -67,7 +67,7 @@ const signUpWithOauth = async (req, res) => {
     if (provider === "google") {
       const ticket = await googleClient.verifyIdToken({
         idToken: id_token,
-        audience: process.env.GOOGLE_CLIENT_ID,
+        audience: [process.env.GOOGLE_CLIENT_ID, "384232392278-lqi7g6q7jknrron4qkessfliufut63hj.apps.googleusercontent.com"],
       });
       const payload = ticket.getPayload();
       verifiedEmail = payload.email;
@@ -131,7 +131,7 @@ const signInWithOauth = async (req, res) => {
     if (provider === "google") {
       const ticket = await googleClient.verifyIdToken({
         idToken: id_token,
-        audience: process.env.GOOGLE_CLIENT_ID,
+        audience: [process.env.GOOGLE_CLIENT_ID, "384232392278-lqi7g6q7jknrron4qkessfliufut63hj.apps.googleusercontent.com"],
       });
       const payload = ticket.getPayload();
       verifiedEmail = payload.email;
@@ -203,3 +203,4 @@ module.exports = {
   refreshToken,
   checkUsernameAvailability,
 };
+
