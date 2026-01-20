@@ -9,6 +9,7 @@ const authMiddleware = require("./middleware/authentication");
 
 const app = express();
 app.use(express.json());
+app.use(express.static('public'));
 
 // Routers
 const authRouter = require("./routes/auth");
